@@ -12,11 +12,11 @@ This script needs an instance of eos-client for signing Transactions:
 https://github.com/svenpohl/eos-client
 
 Setup two local cronjobs:
----
+'''
 5 6 * * * php /localpath/cpubot.php >/dev/null 2>&1
 
 15 6 * * * php /localpath/cpubot.php check >/dev/null 2>&1
----
+'''
 
 You will need two different cpu-spending accounts with some EOS and the same private key, like *mycpubot0001* and *mycpubot0002*
 
