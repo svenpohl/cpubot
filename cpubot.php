@@ -229,6 +229,7 @@ curl_close($ch);
  
 $json_array = json_decode($file_contents, true);
 
+//$cpu = ($json_array['cpu_limit']['available']);
 $cpu = ($json_array['cpu_limit']['max']);
 
 print("cpu: $cpu \n");
