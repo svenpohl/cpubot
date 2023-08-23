@@ -32,7 +32,7 @@ print("\nMode: $mode \n");
 $cpubotcpubot = "cpubotcpubot";
 $day = getdayindex();
 print("Day: " . $day . " \n<br>");     
-if ( ($day % 2) == 0) $cpubotcpubot = "mycpubot0001"; else $cpubotcpubot = "mycpubot0001";
+if ( ($day % 2) == 0) $cpubotcpubot = "mycpubot0001"; else $cpubotcpubot = "mycpubot0002";
          
 $privkey      = "5Jwt1P7hgZeZH2WPk2mfCuxxxxxxfkfwdjxk9wJMGaeXoYYsDv";
 
@@ -56,7 +56,7 @@ if ( !file_exists($logfile) )
 // Create Blacklist and Whitelist
 $array_blacklist    = [];
 //$array_blacklist[0] = "blacklisted1";
-//$array_blacklist[1] = "blacklisted1";
+//$array_blacklist[1] = "blacklisted2";
  
 
 $array_whitelist    = [];
